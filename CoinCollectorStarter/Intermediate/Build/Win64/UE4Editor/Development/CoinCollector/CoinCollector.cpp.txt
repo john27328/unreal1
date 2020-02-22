@@ -1,0 +1,2 @@
+C:\Users\Professional\Documents\src\unreal1\CoinCollectorStarter\Intermediate\Build\Win64\UE4Editor\Development\CoinCollector\Definitions.CoinCollector.h
+C:\Users\Professional\Documents\src\unreal1\CoinCollectorStarter\Source\CoinCollector\CoinCollector.h

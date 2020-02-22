@@ -2,10 +2,12 @@
 
 #pragma once
 
+#include "BasePlayer.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
 #include "BaseCoin.generated.h"
+
 
 UCLASS()
 class COINCOLLECTOR_API ABaseCoin : public AActor
@@ -37,5 +39,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float RotationRate;
 
+	UFUNCTION(BlueprintCallable)
 	void PlayCustomDeath();
+
+	UFUNCTION(BlueprintNativeEvent)
+	void OnOverlap(AActor* OverlappedActor, AActor* OtherActor);
+
 };

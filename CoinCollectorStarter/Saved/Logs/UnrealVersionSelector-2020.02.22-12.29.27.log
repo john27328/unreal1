@@ -1,0 +1,50 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+LinuxPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.4.29806.167, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.16.27023 (Version=14.16.27034)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314 (Version=14.24.28316)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.18362.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.18362.0 at C:\Program Files (x86)\Windows Kits\10
+UnrealBuildTool.Main: ERROR: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+UnrealBuildTool.Main: BuildException: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+UnrealBuildTool.Main:    в UnrealBuildTool.VCEnvironment.SetupEnvironment(UnrealTargetPlatform Platform) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:строка 463
+UnrealBuildTool.Main:    в UnrealBuildTool.VCEnvironment..ctor(UnrealTargetPlatform Platform, WindowsCompiler Compiler, DirectoryReference CompilerDir, VersionNumber CompilerVersion, WindowsArchitecture Architecture, WindowsCompiler ToolChain, DirectoryReference ToolChainDir, VersionNumber ToolChainVersion, DirectoryReference WindowsSdkDir, VersionNumber WindowsSdkVersion) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:строка 144
+UnrealBuildTool.Main:    в UnrealBuildTool.VCEnvironment.Create(WindowsCompiler Compiler, UnrealTargetPlatform Platform, WindowsArchitecture Architecture, String CompilerVersion, String WindowsSdkVersion) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\VCEnvironment.cs:строка 544
+UnrealBuildTool.Main:    в UnrealBuildTool.WindowsPlatform.ValidateTarget(TargetRules Target) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Platform\Windows\UEBuildWindows.cs:строка 714
+UnrealBuildTool.Main:    в UnrealBuildTool.RulesAssembly.CreateTargetRulesInstance(String TypeName, TargetInfo TargetInfo) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:строка 562
+UnrealBuildTool.Main:    в UnrealBuildTool.RulesAssembly.CreateTargetRules(String TargetName, UnrealTargetPlatform Platform, UnrealTargetConfiguration Configuration, String Architecture, FileReference ProjectFile, CommandLineArguments Arguments) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:строка 622
+UnrealBuildTool.Main:    в UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, List`1 AllTargetFiles, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:строка 2224
+UnrealBuildTool.Main:    в UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:строка 720
+UnrealBuildTool.Main:    в UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:строка 176
+UnrealBuildTool.Main:    в UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) в D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:строка 517
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.026) <unknown>
+Timeline.Print: [ 0.026](+0.059) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.086](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.086](+0.055) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.087          [ 0.000](+0.027) Initializing InstalledPlatformInfo
+Timeline.Print:   0.114          [ 0.028](+0.000) Querying types
+Timeline.Print:   0.116          [ 0.029](+0.001) MacPlatformFactory
+Timeline.Print:   0.117          [ 0.030](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.117          [ 0.031](+0.007) AndroidPlatformFactory
+Timeline.Print:   0.125          [ 0.038](+0.000) HoloLensPlatformFactory
+Timeline.Print:   0.125          [ 0.039](+0.011) IOSPlatformFactory
+Timeline.Print:   0.137          [ 0.050](+0.002) LinuxPlatformFactory
+Timeline.Print:   0.139          [ 0.053](+0.000) LuminPlatformFactory
+Timeline.Print:   0.140          [ 0.053](+0.002) WindowsPlatformFactory
+Timeline.Print: [ 0.142](+0.293) <unknown>
+Timeline.Print: [ 0.435](+0.002) Finding engine modules
+Timeline.Print: [ 0.438](+0.002) Finding plugin modules
+Timeline.Print: [ 0.441](+0.032) <unknown>
+Timeline.Print: [ 0.473](+0.000) Finding program modules
+Timeline.Print: [ 0.474](+0.000) Finding program targets
+Timeline.Print: [ 0.474](+0.048) <unknown>
+Timeline.Print: [ 0.522](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 0.525]

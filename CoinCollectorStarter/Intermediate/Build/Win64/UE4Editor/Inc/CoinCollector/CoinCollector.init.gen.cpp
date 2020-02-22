@@ -1,10 +1,10 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
+#include "UObject/GeneratedCppIncludes.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -18,10 +18,11 @@ void EmptyLinkFunctionForGeneratedCodeCoinCollector_init() {}
 		{
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/CoinCollector",
+				nullptr,
+				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6EFBC3E7,
-				0xD93B07D8,
-				nullptr, 0,
+				0x6187E7D0,
+				0xDC74DB97,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
